@@ -93,6 +93,6 @@ This repository is not an official product of the U.S. Census Bureau, FHFA, or t
 
 ## About Homebuyer.com
 
-Homebuyer.com builds tools and content to make mortgages and home buying easier to understand.
+[Homebuyer.com](https://homebuyer.com) builds tools and content to make mortgages and home buying easier to understand.
 
 We use this counties file for visualizing conforming loan limits and mortgage data, and are publishing it so other developers and data teams do not have to rebuild the same Connecticut planning region merge.
