@@ -8,7 +8,7 @@ The file is based on the us-atlas@3 counties-10m TopoJSON, with one important ch
 
 Outside Connecticut, all counties are unchanged from us-atlas.
 
-The project is maintained by Homebuyer.com.
+The project is maintained by [Dan Green](https://github.com/dangreenoh) at [Homebuyer.com](https://homebuyer.com).
 
 ## File
 
@@ -49,15 +49,13 @@ They are replaced by the nine Connecticut planning regions as county-equivalents
 - 09180 Southeastern Connecticut Planning Region  
 - 09190 Western Connecticut Planning Region  
 
-This matches how recent datasets (including 2026 conforming loan limits) key Connecticut to planning regions instead of counties.
+This matches how datasets including [2026 conforming loan limits](https://homebuyer.com/mortgage-loan-limits) and [HMDA data](https://homebuyer.com/research) key Connecticut to planning regions instead of counties.
 
 ## Using the file via CDN
 
-Once this repo is public, you can load the TopoJSON using jsDelivr.
+You can load the TopoJSON using jsDelivr.
 
-Example (replace `YOUR_GITHUB_USERNAME` and optionally pin to a tag or commit):
-
-`https://cdn.jsdelivr.net/gh/growella/us-counties-10m-topojson@main/data/us-counties-hb-with-ct-planning-regions.jsonn`
+`https://cdn.jsdelivr.net/gh/growella/us-counties-10m-topojson@main/data/us-counties-hb-with-ct-planning-regions.json`
 
 Example usage with d3 and topojson-client:
 
